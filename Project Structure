@@ -1,0 +1,24 @@
+customer-churn-prediction/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_model_building.ipynb
+│
+├── src/
+│   ├── data_preprocessing.py
+│   ├── train_model.py
+│   ├── predict.py
+│
+├── models/
+│   ├── churn_model.pkl
+│
+├── app/
+│   ├── app.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
